@@ -107,11 +107,9 @@ const Calendar = () => {
   
     return calendar;
   };
-  
-  
-  
-  
 
+
+  
   const prevMonth = () => {
     setCurrentDate(moment(currentDate).subtract(1, 'month'));
   };
