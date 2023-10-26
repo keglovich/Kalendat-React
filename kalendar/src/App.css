@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.buttons button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.buttons button svg {
+  width: 24px;
+  height: 24px;
+}
+
+.buttons button:hover{
+  transform: scale(1.2);
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  table-layout: fixed;
+}
+
+table button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+
+table th, table td {
+  width: 14.285%;
+  height: 20%;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+table th {
+  background-color: #f0f0f0;
+}
+
+table td {
+  height: 12vh;
+  font-size: 18px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  text-align: left;
+  vertical-align: top;
+  padding: 10px;
+}
+
+table td.today {
+  background-color: #ffc400;
+  color: #fff;
+}
+
+.today .day-number {
+  border: 2px solid #494949;
+  width: min-content;
+  border-radius: 0.5rem;
+  padding: 0 0.5rem;
+}
+
+
+.activity {
+  text-align: center;
+  width: 60%;
+  border: 2px solid #007bff;
+  border-radius: 0.5rem;
+  margin-left: 25%;
+  font-size: 0.8rem;
+}
+
+.activity-name {
+  border-bottom: 2px solid #007bff;
+  padding: 5%;
+}
+
+.activity-time {
+  padding: 5%;
+}
+
+.no-activity {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #494949;
+  padding: 0.5rem;
+}
+
+.completed-activity {
+  background-color: #7FFF00; /* Zelena boja za završene aktivnosti */
+}
+
+.empty {
+  display: none;
+}
